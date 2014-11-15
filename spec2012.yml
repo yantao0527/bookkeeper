@@ -1,0 +1,52 @@
+# 2012年会计科目
+
+# 资产类
+Asset:
+  - 1001 Debit 库存现金
+  - 1002 Debit 银行存款
+  - 1003 Debit 存放中央银行款项
+  - 1011 Debit 存放同业
+  
+# 负债类
+Liability:
+  - 2001 Credit 短期负债
+  - 2002 Creidt 存入保证金
+  - 2003 Credit 拆入资金
+  - 2004 Credit 向中央银行借款
+  
+# 共同类
+BiDirector:
+  - 3001 Debit 清算资金往来
+  - 3002 Debit 外汇买卖
+  - 3101 Debit 衍生工具
+  - 3201 Debit 套期工具
+  - 3202 Debit 被套期项目
+  
+# 所有者权益类
+Owner
+  - 4001 Debit 实收资本
+  - 4002 Debit 资本公积
+  - 4101 Debit 盈余公积
+  - 4102 Debit 一般风险准备
+  - 4103 Debit 本年利润
+  - 4104 Debit 利润分配
+  - 4201 Debit 库存股
+
+# 成本类
+  - 5001 Credit 生产成本
+  - 5101 Credit 制造成本
+  - 5201 Credit 劳务成本
+  - 5301 Credit 研发成本
+
+# 损益类
+  - 6001 Debit 主营业务收入
+  - 6011 Debit 利息收入
+  - 6021 Debit 手续费收入
+  - 6031 Debit 保费收入
+  - 6032 Debit 分保费收入
+  - 6041 Debit 租赁收入
+  - 6051 Debit 其他业务收入
+  - 6061 Debit 汇兑损益
+  - 6101 Debit 公允价值变动损益
+  - 6111 Debit 投资收益
+  
