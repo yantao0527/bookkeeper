@@ -1,6 +1,20 @@
 # 2012年会计科目
 # http://www.360doc.com/content/12/1215/18/10853593_254218988.shtml
 
+# 记账簿规格
+Specification:
+  Ledger:
+    - Asserts 资产类
+    - Liabilities 负债类
+    - Bidirection 双向类
+    - OwnerEquity 所有者权益类
+    - Cost 成本类
+    - IncomeExpense 损益类
+  Length:
+    Level1: 4
+    Level2: 3
+    Account: 5
+    
 # 资产类
 Assets:
   - 1001 Debit 库存现金
